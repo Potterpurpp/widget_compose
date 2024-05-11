@@ -37,7 +37,7 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
             const SizedBox(height: 16),
             BigText(
               color: Color.fromRGBO(121, 121, 76, 1),
-              title: '${widget.productDto.name}',
+              title: widget.productDto.name,
             ),
             const SizedBox(height: 8),
             Text(
@@ -66,7 +66,10 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
                 ),
               ],
             ),
-            const PrimaryButton(title: "Buy now")
+            const PrimaryButton(
+              title: "Buy now",
+              titleColor: Colors.amber,
+            )
           ],
         ),
       ),

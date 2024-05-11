@@ -55,11 +55,10 @@ final List<ProductDto> cars = [
 
 final Map<String, String> categoryImages = {
   "electronics":
-      'https://images.unsplash.com/photo-1544006658-89bde88e87c6?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      'http://img-187.uamulet.com/taradpra.com/UserProfile/yoyo/Logo/logo_nameshop.gif?638510169300125289',
   "jewelery":
-      'https://plus.unsplash.com/premium_photo-1661645473770-90d750452fa0?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      'https://lh6.googleusercontent.com/proxy/P-EMesI8eyKvveanA0zUtxr8ty0rqDq-WBOuDx2um2d6tsgoIZzbV9npk-4Yxe0hIkCL6UVg0SN0-6uDCdtBYe4gY3QiwpuQG4PVCes',
   "men's clothing":
-      'https://images.unsplash.com/photo-1507680434567-5739c80be1ac?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-  "women's clothing":
-      'https://images.unsplash.com/photo-1532453288672-3a27e9be9efd?q=80&w=2448&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+      'https://f.ptcdn.info/212/058/000/panx0q9nq1CnRNV1jPQ-o.jpg',
+  "women's clothing": 'https://inwfile.com/s-cb/onvad5.jpg'
 };

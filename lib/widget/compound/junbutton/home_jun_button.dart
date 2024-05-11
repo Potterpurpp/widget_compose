@@ -22,7 +22,7 @@ class HomeJunButton extends StatelessWidget {
             Image.network(
               imgUrl,
               width: MediaQuery.of(context).size.width,
-              fit: BoxFit.fill,
+              fit: BoxFit.cover,
             ),
             Padding(
               padding: const EdgeInsets.all(8),
@@ -34,7 +34,10 @@ class HomeJunButton extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
                       BigText(title: title),
-                      PrimaryButton(title: buttonTitle)
+                      PrimaryButton(
+                        title: buttonTitle,
+                        titleColor: Colors.white,
+                      )
                     ],
                   ))
                 ],
